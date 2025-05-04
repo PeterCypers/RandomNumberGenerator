@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NumGen</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="images/numbers 02.webp" type="image/x-icon">
+  </head>
+  <body>
+    <h1>Number Generator</h1>
+    <div class="color">
+      <div id="grid">
+        <div>
+          <div>
+            <label for="text1">Aantal:</label>
+            <input type="text" name="text1" id="text1" />
+          </div>
+          <div id="scopeContainer">
+            <label for="scope">&nbsp;Scope:</label>
+            <div id="radioContainer">
+            <div><input type="radio" name="scope" id="scope1" value="9" checked/>&nbsp;1-9</div>
+            <div><input type="radio" name="scope" id="scope2" value="99" />&nbsp;1-99 <br></div>
+            <div><input type="radio" name="scope" id="scope3" value="999" />&nbsp;1-999</div>
+            <div><input type="radio" name="scope" id="scope4" value="9999" />&nbsp;1-9999</div>
+          </div>
+          </div>
+          <div id="buttondiv">
+            <input type="button" id="button1" value="Generate" />
+          </div>
+        </div>
+        <div>
+          <label for="teken">Teken:</label>
+          <select name="teken" id="teken">
+          <option value="," selected>,</option>
+          <option value=".">.</option>
+          <option value=" "></option>
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="*">*</option>
+          <option value="/">/</option>
+        </select>
+        </div>
+        <div>
+          <table>
+            <tr>
+              <td><p>Output:</p></td>
+              <td><p id="output" ></p></td>
+            </tr>
+          </table>
+          <div id="buttondiv2">
+            <input type="button" id="button2" value="Copy to Clipboard" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/numberGenerator.js"></script>
+  </body>
+</html>

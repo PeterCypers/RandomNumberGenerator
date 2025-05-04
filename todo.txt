@@ -1,0 +1,37 @@
+verschillende input velden, je kiest hoeveel getallen je wil genereren
+met welke teken ze gescheiden worden, de aantal cijfers lang van 
+het getal "000" of "00000" of "00" of "0" de scope (vb van 100 tot 999)
+
+input velden krijgen een default waarde van getallen van 1-9, 20 getallen,
+dubbels toegestaan
+
+
+input text 1: aantal getallen
+
+input radio keuze: format vb "1-9"
+                   format vb "1-99"
+                   format vb "1-999"
+                   format vb "1-9999"
+
+(optioneel: radio veranderen in select list en user zelf een max waarde laten kiezen
+als extra keuze)
+
+
+voorloop nullen: ja of neen (checkbox)
+
+optie met nul inbegrepen of niet: checkbox
+
+splitsings teken: radio menu: opties: ","(default) ";" "." "/"
+
+
+const randomNumber = Math.floor(Math.random() * [range]) + [vanaf];		bvb van 0-30: range31 // van 0-10: range 11 // van 20-40: range21 , vanaf20
+
+
+fix small height webpage window background problem(when many numbers generated)
+
+add popup tekst as feedback after copied popup message: copied!
+https://www.w3schools.com/howto/howto_js_popup.asp
+
+
+check box: 1) doubles: 2) sorted(either a optionselect or an optionselect hidden by
+				unchecked checkbox)
